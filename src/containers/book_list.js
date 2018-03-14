@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 
-export class BookList extends Comment {
+export class BookList extends Component {
     renderList() {
         return this.props.books.map((book) => {
             return (
