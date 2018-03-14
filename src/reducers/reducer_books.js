@@ -1,9 +1,9 @@
 export default function() {
     return [
-        { title: 'Theif of Nations'},
-        { title: 'Go Get em'},
-        { title: 'The Dark Tower'},
-        { title: 'Eloquent Ruby'}
+        { title: 'Theif of Nations', genre: 'fantasy'},
+        { title: 'Go Get em', genre: 'fantasy'},
+        { title: 'The Dark Tower', genre: 'fantasy'},
+        { title: 'Eloquent Ruby', genre: 'fantasy'}
 
     ]
 }
